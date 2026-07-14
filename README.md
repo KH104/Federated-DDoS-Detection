@@ -94,6 +94,4 @@ This is an actively evolving research/engineering pipeline, not a finished produ
 - Some paths and shell scripts are currently pinned to a local environment and would need generalizing for portability.
 - An explainability layer (SHAP) is a listed dependency but not yet wired into the training/evaluation flow.
 
----
 
-*An exploration of privacy-preserving DDoS detection — comparing centralized and federated training on real attack traffic data. See the [full repo](https://github.com/KH104/Federated-DDoS-Detection) for source.*
