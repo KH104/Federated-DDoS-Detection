@@ -1,24 +1,4 @@
-"""
-=============================================================================
-DDoS Detection Pipeline — CICDDoS2019 Dataset  (v2 — Production-Grade)
-=============================================================================
-Author  : ML Pipeline
-Dataset : /Users/kartikeyahazela/research paper/Datasets/
-Usage   :
-    python train.py [--sample N] [--federated]
 
-Improvements over v1
-────────────────────
-  ✓ Drop duplicates                   (after concat)
-  ✓ Class balancing via undersampling (BENIGN == #ATTACK cap)
-  ✓ Hard 200 K sample cap             (realistic evaluation)
-  ✓ Zero data leakage: scaler + feature selection fit on TRAIN only
-  ✓ 5-fold cross-validation for RandomForest
-  ✓ ROC-AUC score on both models
-  ✓ Precision-Recall curve plot
-  ✓ MLP probability output for ROC/PR curves
-=============================================================================
-"""
 
 import os, sys, time, warnings, argparse, gc
 import numpy as np
